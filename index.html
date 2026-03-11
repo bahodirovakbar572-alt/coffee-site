@@ -3,45 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qahva San'ati | Minimalist</title>
+    <title>Qahva San'ati | Premium Minimalist</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Navigatsiya -->
     <nav>
         <div class="logo">COFFEE.</div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Asosiy</a></li>
+            <li><a href="#about">Biz haqimizda</a></li>
+            <li><a href="#menu">Menyu</a></li>
+            <li><a href="#experience">Tajriba</a></li>
+            <li><a href="#contact">Aloqa</a></li>
         </ul>
     </nav>
 
+    <!-- 1. Hero Section -->
     <section id="home" class="hero">
-        <h1 class="reveal">Ertalabki <br><span>Ilhom.</span></h1>
-        <p class="reveal">Faqat kofe emas, bu bir lahzalik xotirjamlik.</p>
-        <div class="scroll-down"></div>
+        <div class="hero-content">
+            <h1 class="reveal">Ertalabki <br><span>Ilhom.</span></h1>
+            <p class="reveal">Har bir piyolada — yangi kun hikoyasi. Biz shunchaki qahva emas, balki xotirjamlik muhitini taqdim etamiz.</p>
+            <a href="#menu" class="cta-button reveal">Menyuni ko'rish</a>
+        </div>
+        <div class="scroll-indicator">PASTGA</div>
     </section>
 
+    <!-- 2. About Section -->
     <section id="about" class="about">
-        <h2 class="reveal">Biz haqimizda</h2>
-        <p class="reveal">Biz kofeni shunchaki pishirmaymiz, biz donlar ichidagi hikoyani uyg'otamiz. Har bir tomchi — bu san'at.</p>
-    </section>
-
-    <section id="menu" class="menu">
-        <h2 class="reveal">Tanlov</h2>
-        <div class="menu-grid">
-            <div class="item reveal"><h3>Espresso</h3><p>Kuchli va sof.</p></div>
-            <div class="item reveal"><h3>Latte</h3><p>Yumshoq va mayin.</p></div>
-            <div class="item reveal"><h3>Cortado</h3><p>Mukammal balans.</p></div>
+        <div class="section-label">01. BIZ HAQIMIZDA</div>
+        <h2 class="reveal">Sifat biz uchun — <br>tanlov emas, talab.</h2>
+        <div class="about-grid">
+            <p class="reveal">Biz dunyoning eng yaxshi plantatsiyalaridan keltirilgan donlarni qo'lda saralaymiz. Bizning qahvamiz — bu an'ana va zamonaviy texnologiya uyg'unligi.</p>
+            <p class="reveal">Har bir barista bizda maxsus tayyorgarlikdan o'tadi, chunki mukammal qahva uchun nafaqat bilim, balki qalb ham kerak.</p>
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2 class="reveal">Biz bilan bog'laning</h2>
-        <p class="reveal">Toshkent, Markaz 1. <br> @coffee_minimalist</p>
+    <!-- 3. Menu Section -->
+    <section id="menu" class="menu">
+        <div class="section-label">02. MENYU</div>
+        <h2 class="reveal">Klassikadan <br>eksperimentgacha.</h2>
+        <div class="menu-list">
+            <div class="menu-item reveal">
+                <div class="item-name">Espresso</div>
+                <div class="item-line"></div>
+                <div class="item-price">18,000</div>
+            </div>
+            <div class="menu-item reveal">
+                <div class="item-name">Flat White</div>
+                <div class="item-line"></div>
+                <div class="item-price">25,000</div>
+            </div>
+            <div class="menu-item reveal">
+                <div class="item-name">V60 Pour Over</div>
+                <div class="item-line"></div>
+                <div class="item-price">28,000</div>
+            </div>
+            <div class="menu-item reveal">
+                <div class="item-name">Cold Brew</div>
+                <div class="item-line"></div>
+                <div class="item-price">30,000</div>
+            </div>
+        </div>
     </section>
+
+    <!-- 4. Experience / Quote Section -->
+    <section id="experience" class="experience">
+        <div class="quote-box reveal">
+            <blockquote>"Kofe — bu shunchaki ichimlik emas, bu hayot ritmidagi pauza."</blockquote>
+            <cite>— Bizning falsafamiz</cite>
+        </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-label">03. ALOQA</div>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <h3>Manzil</h3>
+                <p>Toshkent sh., Amir Temur ko'chasi, 108-uy</p>
+                <p>@coffee_minimalist</p>
+            </div>
+            <div class="contact-info reveal">
+                <h3>Ish vaqti</h3>
+                <p>Dushanba — Juma: 08:00 - 22:00</p>
+                <p>Shanba — Yakshanba: 09:00 - 23:00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Minimalist. Barcha huquqlar himoyalangan.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
